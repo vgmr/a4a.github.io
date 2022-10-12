@@ -1,0 +1,315 @@
+{
+  "profileAccount": {
+    "darkThemeColors": {
+      "content": {
+        "backgroundColor": "#282830",
+        "color": "#fff"
+      },
+      "bar": {
+        "tint": "#000",
+        "backgroundTint": "#FFF",
+        "inactiveTint": "#FFF",
+        "backgroundInactiveTint": "#000"
+      }
+    },
+    "lightThemeColors": {
+      "header": {
+        "backgroundColor": "#FFF",
+        "color": "#3b5998"
+      },
+      "bar": {
+        "tint": "#FFF",
+        "backgroundTint": "#3b5998",
+        "inactiveTint": "#FFF",
+        "backgroundInactiveTint": "#4285f4"
+      }
+    },
+    "profileName": "Account Info",
+    "plugin": {
+      "key": "_profile_account",
+      "pluginName": "AccountInfoPlugin",
+      "navigation": {}
+    }
+  },
+  "profileSwitcher": {
+    "darkThemeColors": {
+      "content": {
+        "backgroundColor": "#282830",
+        "color": "#fff"
+      },
+      "bar": {
+        "tint": "#000",
+        "backgroundTint": "#FFF",
+        "inactiveTint": "#FFF",
+        "backgroundInactiveTint": "#000"
+      },
+      "theme_colors": {
+        "Event": {
+          "foreColor": "#FFF",
+          "backgroundColor": "#285295"
+        },
+        "News": {
+          "foreColor": "#FFF",
+          "backgroundColor": "#132978"
+        },
+        "Internal News": {
+          "foreColor": "#FFF",
+          "backgroundColor": "#132978"
+        },
+        "Market News": {
+          "foreColor": "#FFF",
+          "backgroundColor": "#2f79a1"
+        },
+        "Investment Talks": {
+          "foreColor": "#FFF",
+          "backgroundColor": "#0d6323"
+        },
+        "Upcoming Events": {
+          "foreColor": "#FFF",
+          "backgroundColor": "#b81007"
+        }
+      }
+    },
+    "lightThemeColors": {
+      "header": {
+        "backgroundColor": "#FFF",
+        "color": "#3b5998"
+      },
+      "bar": {
+        "tint": "#FFF",
+        "backgroundTint": "#3b5998",
+        "inactiveTint": "#FFF",
+        "backgroundInactiveTint": "#4285f4"
+      },
+      "theme_colors": {
+        "Event": {
+          "foreColor": "#FFF",
+          "backgroundColor": "#285295"
+        },
+        "News": {
+          "foreColor": "#FFF",
+          "backgroundColor": "#132978"
+        },
+        "Internal News": {
+          "foreColor": "#FFF",
+          "backgroundColor": "#132978"
+        },
+        "Market News": {
+          "foreColor": "#FFF",
+          "backgroundColor": "#2f79a1"
+        },
+        "Investment Talks": {
+          "foreColor": "#FFF",
+          "backgroundColor": "#0d6323"
+        },
+        "Upcoming Events": {
+          "foreColor": "#FFF",
+          "backgroundColor": "#b81007"
+        }
+      }
+    },
+    "profileName": "Profile Switcher",
+    "plugin": {
+      "key": "_profile_switcher",
+      "pluginName": "ProfilesPlugin"
+    }
+  },
+  "profiles": [
+    {
+      "darkThemeColors": {
+        "content": {
+          "backgroundColor": "#282830",
+          "color": "#fff"
+        },
+        "bar": {
+          "tint": "#FFF",
+          "backgroundTint": "rgb(40, 82, 149)",
+          "inactiveTint": "grey",
+          "backgroundInactiveTint": "rgb(40, 82, 149)"
+        },
+        "theme_colors": {
+          "Event": {
+            "foreColor": "#FFF",
+            "backgroundColor": "#285295"
+          },
+          "News": {
+            "foreColor": "#FFF",
+            "backgroundColor": "#132978"
+          },
+          "Internal News": {
+            "foreColor": "#FFF",
+            "backgroundColor": "#132978"
+          },
+          "Market News": {
+            "foreColor": "#FFF",
+            "backgroundColor": "#2f79a1"
+          },
+          "Investment Talks": {
+            "foreColor": "#FFF",
+            "backgroundColor": "#0d6323"
+          },
+          "Upcoming Events": {
+            "foreColor": "#FFF",
+            "backgroundColor": "#b81007"
+          }
+        },
+        "header": {
+          "backgroundColor": "rgb(40, 82, 149)",
+          "color": "#FFF"
+        }
+      },
+      "lightThemeColors": {
+        "header": {
+          "backgroundColor": "#FFF",
+          "color": "#3b5998"
+        },
+        "bar": {
+          "tint": "#FFF",
+          "backgroundTint": "#3b5998",
+          "inactiveTint": "#FFF",
+          "backgroundInactiveTint": "#4285f4"
+        },
+        "theme_colors": {
+          "Event": {
+            "foreColor": "#FFF",
+            "backgroundColor": "#285295"
+          },
+          "News": {
+            "foreColor": "#FFF",
+            "backgroundColor": "#132978"
+          },
+          "Internal News": {
+            "foreColor": "#FFF",
+            "backgroundColor": "#132978"
+          },
+          "Market News": {
+            "foreColor": "#FFF",
+            "backgroundColor": "#2f79a1"
+          },
+          "Investment Talks": {
+            "foreColor": "#FFF",
+            "backgroundColor": "#0d6323"
+          },
+          "Upcoming Events": {
+            "foreColor": "#FFF",
+            "backgroundColor": "#b81007"
+          }
+        }
+      },
+      "contacts": [
+        {
+          "firstName": "Peter",
+          "lastName": "Parker",
+          "email": "spiderman.hero@avangers.mcu",
+          "phone": "333 456789"
+        }
+      ],
+      "profileName": "A4A",
+      "api": {
+        "news": "news-a4a",
+        "events": "events-a4a",
+        "saleskit": "saleskit-a4a",
+        "showcase": "showcase-a4a",
+        "needs": "needs-a4a",
+        "gallery": "events-a4a",
+        "funddata": "funddata-a4a"
+      },
+      "prefetch": [
+        "funds"
+      ],
+      "plugin": {
+        "key": "main",
+        "pluginName": "TabbarApp",
+        "navigation": {
+          "notifications": true,
+          "settings": true,
+          "contacts": true,
+          "quickview": true
+        },
+        "settings": {},
+        "children": [
+          {
+            "key": "showcase",
+            "pluginName": "ShowcasePlugin",
+            "icon": "tv-outline",
+            "settings": {
+              "docsDetails": [
+                "npe.doctype.periodicreport",
+                "npe.doctype.annualreport",
+                "npe.doctype.prospectus"
+              ]
+            }
+          },
+          {
+            "key": "themes",
+            "pluginName": "NewsPlugin",
+            "icon": "globe-outline",
+            "settings": {
+              "boardTheme": "News"
+            }
+          },
+          {
+            "key": "funds",
+            "pluginName": "FundsPlugin",
+            "icon": "text-box-search-outline;material-community",
+            "settings": {
+              "docsDetails": [
+                "npe.doctype.periodicreport",
+                "npe.doctype.kiid",
+                "npe.doctype.fundteaser"
+              ]
+            }
+          },
+          {
+            "key": "events-split",
+            "title": "events",
+            "pluginName": "SplitPlugin",
+            "icon": "calendar-outline",
+            "settings": {
+              "useLiveCode": false,
+              "defaultKey": "events"
+            },
+            "children": [
+              {
+                "key": "events",
+                "pluginName": "EventsPlugin",
+                "icon": "calendar-outline"
+              },
+              {
+                "key": "gallery",
+                "pluginName": "GalleryPlugin",
+                "icon": "images-outline"
+              }
+            ]
+          },
+          {
+            "key": "tools-split",
+            "title": "tools",
+            "pluginName": "SplitPlugin",
+            "icon": "options-outline",
+            "settings": {
+              "defaultKey": "tools"
+            },
+            "children": [
+              {
+                "key": "tools",
+                "pluginName": "ToolPlugin",
+                "icon": "options-outline",
+                "settings": {
+                  "remoteCatalog": "http://asm.vm2-edx.simonemulas.net:8088/availableapps/apps/cat1",
+                  "localCatalog": "cat1"
+                }
+              },
+              {
+                "key": "live",
+                "pluginName": "LiveListPlugin",
+                "icon": "eye-outline",
+                "settings": {}
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
